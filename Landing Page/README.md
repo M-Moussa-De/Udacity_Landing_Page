@@ -15,7 +15,6 @@ I Created All Files From Scratch And Didn't Use The Suggested File on Your Websi
 === CSS ===
 1- Responsive Navbar.
 2- Responsive Page.
-3- Assets Folder Was Created To Include The Images(includes only an icon for now).
 
 === JS ===
 1- Navbar Items To Be Added Dynamiclly From Within JS.
