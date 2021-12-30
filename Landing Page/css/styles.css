@@ -109,13 +109,12 @@ header nav li a.active {
 /* End Header */
 
 /* Sections */
-main {
-  margin-top: 1rem;
-}
+
 /* DarkMode */
 main .darkMode {
   text-align: right;
-  margin-right: 3rem;
+  padding-right: 3rem;
+  padding-top: 2rem;
   z-index: 1;
   cursor: pointer;
 }
@@ -129,8 +128,8 @@ main section.content {
   width: 100%;
   min-height: 100vh;
   opacity: 0.2;
-  font-size: 0.9rem;
-  line-height: 1.9;
+  font-size: 1.5rem;
+  line-height: 2;
   margin: 2rem 0 1rem;
 }
 main section.content.active {
@@ -185,7 +184,7 @@ footer {
 /* Media Queries */
 
 /* ============================ Meduim Devices ===================== */
-@media screen and (max-width: 1000px) {
+@media screen and (min-width: 551px) and (max-width: 1000px) {
   /* Hero */
   .hero {
     height: 50vh;
@@ -234,8 +233,7 @@ footer {
   /* Sections */
   main section.content {
     opacity: 0.2;
-    font-size: 0.8vw;
-    line-height: 1.9;
+    font-size: 2rem;
   }
   main section.content.active {
     opacity: 0.8;
@@ -253,28 +251,21 @@ footer {
   main section.content .elements h2 {
     font-size: 1.4rem;
   }
-  main section.content .elements h3 {
-    font-size: 1.2rem;
-  }
   main section.content .elements p {
     margin: 1.5rem 0;
-    line-height: 1.4rem;
+    line-height: 2;
     font-size: 1rem;
   }
   /* End Sections */
 
+  /* TopPage  Arrow*/
+  .topPage {
+    font-size: 1.8rem;
+  }
+
   /* Footer */
   footer {
     font-size: 0.7rem;
-  }
-
-  /* TopPage  Arrow*/
-  .topPage {
-    position: fixed;
-    bottom: 6.7rem;
-    right: 2rem;
-    z-index: 100;
-    font-size: 1.8rem;
   }
 }
 
@@ -299,30 +290,7 @@ footer {
 
   /* Header */
   header {
-    padding: 0.5rem;
     font-size: 0.6rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  header nav {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  header nav ul {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-  }
-  header nav ul li a {
-    margin: auto 0.2rem;
-  }
-  header nav ul li a:hover,
-  header nav li a.active {
-    box-shadow: 0 0 10px #fff;
   }
   /* End Header */
 
@@ -345,15 +313,16 @@ footer {
   main section.content .elements h2 {
     font-size: 1.2rem;
   }
-  main section.content .elements h3 {
-    font-size: 1rem;
-  }
   main section.content .elements p {
-    margin: 1.5rem 0;
     line-height: 1.4rem;
     font-size: 0.8rem;
   }
   /* End Sections */
+
+  /* TopPage  Arrow*/
+  .topPage {
+    font-size: 1.5rem;
+  }
 
   /* Footer */
   footer {

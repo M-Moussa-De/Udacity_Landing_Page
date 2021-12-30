@@ -13,13 +13,9 @@
     li.appendChild(a);
     navUl.appendChild(li);
   }
-  // Beacuse I've a Hero Section, The First Section(HOME) Is Not In Viewport
-  // It's Not Right To Add Class 'active' To The First Section
-  // If this was the Case, Then The Follwing Code Would Do The Work.
-  // document.querySelector("nav ul li a").classList.add("active");
 })();
 
-// Smoothly Scrolling Applied On All NavLinks
+// Smoothly Scrolling Applied On All NavLinks By Clicking
 let a = document.querySelectorAll("header nav ul li a");
 a.forEach((el) => {
   el.onclick = function (e) {
@@ -46,17 +42,19 @@ document.body.addEventListener("scroll", isInViewport);
 function isInViewport() {
   for (let i = 0; i < sections.length; i++) {
     const rect = sections[i].getBoundingClientRect();
-    const inViewPort = rect.top <= 500 && rect.top >= -500;
+    const inViewPort = rect.top <= 400 && rect.top >= -200;
     if (inViewPort === true) {
       sections[i].classList.add("active");
+      sections[i].classList.add("your-active-class");
       const id = sections[i].getAttribute("id");
       document
         .querySelector("header nav a[href*=" + id + "]")
         .classList.add("active");
-      return;
+    } else {
+      sections[i].classList.remove("active");
+      sections[i].classList.remove("your-active-class");
+      navLinks[i].classList.remove("active");
     }
-    sections[i].classList.remove("active");
-    navLinks[i].classList.remove("active");
   }
 }
 
