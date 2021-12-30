@@ -4,6 +4,7 @@ I Created All Files From Scratch And Didn't Use The Starter Code On Your Website
 - Google Fonts In CSS To Use Font Family "Open Sans"
 
 ==== HTML ===
+
 1- Hero With Background-Image.
 2- Navbar With Sticky Effection.
 3- Sections With Dummy H2 & Paragraphs.
@@ -12,10 +13,12 @@ I Created All Files From Scratch And Didn't Use The Starter Code On Your Website
 7- Simple Footer.
 
 === CSS ===
+
 1- Responsive Navbar.
 2- Responsive Page.
 
 === JS ===
+
 1- Navbar Items To Be Added Dynamiclly From Within JS.
 2- Dark Mode, Toggels The BG between Lightgray & Dark.
 3- To TopPage Arrow.
