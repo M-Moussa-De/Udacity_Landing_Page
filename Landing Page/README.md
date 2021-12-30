@@ -1,4 +1,4 @@
-I Created All Files From Scratch And Didn't Use The Suggested File on Your Website.
+I Created All Files From Scratch And Didn't Use The Starter Code On Your Website.
 
 - Font awesome CDN to use Arrow To Top Page.
 - Google Fonts In CSS To Use Font Family "Open Sans"
@@ -6,11 +6,10 @@ I Created All Files From Scratch And Didn't Use The Suggested File on Your Websi
 ==== HTML ===
 1- Hero With Background-Image.
 2- Navbar With Sticky Effection.
-3- Sections With Dummy H2, H3 & Paragraphs.
+3- Sections With Dummy H2 & Paragraphs.
 4- Arrow, Appears Only By Scrolling Down. Otherweise Is disabled.
 6- Dark/White Mode Button.
 7- Simple Footer.
-8- I Updated The Structure & The Style A little From First Time, When I Submitted The Project, To Make It Clearer & Easier To Follow.
 
 === CSS ===
 1- Responsive Navbar.
@@ -23,7 +22,3 @@ I Created All Files From Scratch And Didn't Use The Suggested File on Your Websi
 4- Not Active Sections Have Less Opacity, Section Gets Active Class, When It Is In The Viewport Increases The Opacity.
 5- Active Class Will Be Added To The Correct Element In The Navbar When Is Clicked.
 6- Smooth Scrolling Was Added Within JS File.
-
-I'd be happy to get any Feedbacks from your side.
-
-Thank You!
