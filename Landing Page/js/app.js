@@ -1,9 +1,9 @@
 //jshint esversion: 11
+const sections = document.querySelectorAll("main section");
 
 // Self Invoked Function To Build The NavLinks Dynamically
 (function () {
-  const navUl = document.querySelector("header nav ul");
-  const sections = document.querySelectorAll("main section");  
+  const navUl = document.querySelector("header nav ul");  
   for (let i = 0; i < sections.length; i++) {
     const li = document.createElement("li");
     const a = document.createElement("a");
@@ -35,7 +35,6 @@ btnDarkMode.addEventListener("click", () => {
 
 // getBoundingClientRect
 // ScrollSpy, In Viewport && Add Active Class
-const sections = document.querySelectorAll("section.content");
 const navLinks = document.querySelectorAll("header nav ul li a");
 document.body.addEventListener("scroll", isInViewport);
 
