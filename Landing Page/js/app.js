@@ -3,8 +3,8 @@
 // Self Invoked Function To Build The NavLinks Dynamically
 (function () {
   const navUl = document.querySelector("header nav ul");
-  for (let i = 0; i < 4; i++) {
-    const sections = document.querySelectorAll("main section.content");
+  const sections = document.querySelectorAll("main section");  
+  for (let i = 0; i < sections.length; i++) {
     const li = document.createElement("li");
     const a = document.createElement("a");
     const getSectionAttribut = sections[i].getAttribute("id");
