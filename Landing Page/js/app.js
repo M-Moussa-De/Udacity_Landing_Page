@@ -1,4 +1,4 @@
-
+//jshint esversion: 11
 
 // Self Invoked Function To Build The NavLinks Dynamically
 (function () {
