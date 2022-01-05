@@ -292,6 +292,9 @@ footer {
   header {
     font-size: 0.6rem;
   }
+  header nav {
+   width: 100%;
+  }
   /* End Header */
 
   /* Sections */
